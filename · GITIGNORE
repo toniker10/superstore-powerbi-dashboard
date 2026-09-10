@@ -1,0 +1,26 @@
+# Power BI temporary / backup files
+*.pbix.bak
+~$*.pbix
+*.pbix.lock
+
+# Power BI Desktop cache
+.pbi/
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# Environment / secrets (in case you ever add Python scripts here)
+.env
+__pycache__/
+*.pyc
