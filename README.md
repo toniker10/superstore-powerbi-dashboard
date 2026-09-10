@@ -10,6 +10,19 @@ Raw transactional data (one row per order line) is hard to act on. This dashboar
 
 ---
 
+## 🖼️ Screenshots
+
+> Add screenshots of each page here before publishing.
+
+```markdown
+![Page 1 - Executive Overview](screenshots/page1-overview.png)
+![Page 2 - Product & Segment Analysis](screenshots/page2-products.png)
+![Page 3 - Geography & Customer Analysis](screenshots/page3-geography.png)
+![Page 4 - Operations](screenshots/page4-operations.png)
+```
+
+---
+
 ## 📄 Page 1 — Executive Overview
 
 **Business question answered:** *"How is the business doing overall, and is that trend improving or getting worse?"*
@@ -90,7 +103,7 @@ The dashboard uses the classic **Superstore** retail dataset, containing order-l
 
 ## 🚀 How to Use
 
-1. Download `dashboard/superstore-dashboard.pbix`
+1. Download `superstore-dashboard.pbix`
 2. Open it with [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows only)
 3. Explore each page using the tabs at the bottom of the report
 
@@ -99,17 +112,11 @@ The dashboard uses the classic **Superstore** retail dataset, containing order-l
 ## 📁 Repository Structure
 
 ```
-├── dashboard/
-│   └── superstore-dashboard.pbix     # Main Power BI report
-├── data/
-│   └── superstore-data.xlsx          # Source data
-├── screenshots/
-│   ├── page1-overview.png
-│   ├── page2-products.png
-│   ├── page3-geography.png
-│   └── page4-operations.png
+├── superstore-dashboard.pbix     # Main Power BI report
+├── Superstore_Cleaned.xlsx       # Source data
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
 ---
