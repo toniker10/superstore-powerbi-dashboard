@@ -12,14 +12,10 @@ Raw transactional data (one row per order line) is hard to act on. This dashboar
 
 ## 🖼️ Screenshots
 
-> Add screenshots of each page here before publishing.
-
-```markdown
-![Page 1 - Executive Overview](screenshots/page1-overview.png)
-![Page 2 - Product & Segment Analysis](screenshots/page2-products.png)
-![Page 3 - Geography & Customer Analysis](screenshots/page3-geography.png)
-![Page 4 - Operations](screenshots/page4-operations.png)
-```
+![Page 1 - Executive Overview](screenshot%20(1).png)
+![Page 2 - Product & Segment Analysis](screenshot%20(2).png)
+![Page 3 - Geography & Customer Analysis](screenshot%20(3).png)
+![Page 4 - Operations](screenshot%20(4).png)
 
 ---
 
@@ -114,6 +110,10 @@ The dashboard uses the classic **Superstore** retail dataset, containing order-l
 ```
 ├── superstore-dashboard.pbix     # Main Power BI report
 ├── Superstore_Cleaned.xlsx       # Source data
+├── screenshot (1).png            # Page 1 - Executive Overview
+├── screenshot (2).png            # Page 2 - Product & Segment Analysis
+├── screenshot (3).png            # Page 3 - Geography & Customer Analysis
+├── screenshot (4).png            # Page 4 - Operations
 ├── README.md
 ├── LICENSE
 └── .gitignore
