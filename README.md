@@ -65,7 +65,7 @@ Raw transactional data (one row per order line) is hard to act on. This dashboar
 
 ## 🗂️ Data Source
 
-The dashboard uses the classic Superstore retail dataset, containing order-level transaction data:
+The dashboard uses the classic "Sample - Superstore" retail dataset, originally distributed as a built-in sample dataset with Tableau Desktop and widely re-hosted on platforms like [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) for analytics practice. It contains order-level transaction data:
 
 - **Order details:** Order ID, Order Date, Ship Date, Ship Mode
 - **Customer details:** Customer ID, Customer Name, Segment
